@@ -33,7 +33,8 @@ public class DepositCalculator {
         } else if (depositType == 2) {
             depositRevenue = calculateComplexPercent(depositAmount, 0.06, depositPeriod);
         }
-        System.out.println("Результат вклада: " + depositAmount + " за " + depositPeriod + " лет превратятся в " + depositRevenue);
+        System.out.println("Результат вклада: " + depositAmount + " за " + depositPeriod + " лет превратятся в "
+                + depositRevenue);
     }
 
     public static void main(String[] args) {
